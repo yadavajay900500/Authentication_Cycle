@@ -2,11 +2,11 @@ const { google } = require('googleapis');
 const path = require('path');
 const fs = require('fs');
 
-const CLIENT_ID = '948757131173-r1njcsrh3hgahdfmeqqli0h5tuu1ns9t.apps.googleusercontent.com';
-const CLIENT_SECRET = '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';
+const CLIENT_ID = 'Your Client_ID...............................';
+const CLIENT_SECRET = 'Your Client_Secret.....................................';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
 
-const REFRESH_TOKEN = '1//04OfBSJsGrP2FCgYIARAAGAQSNwF-L9Irve5G19O_uh5mFuF9ITCv-ynaPjlxug5Vvko3NsnEpCLBG230K0IvmMz6g_6BwLHJRSo';
+const REFRESH_TOKEN = '1//04OfBSJs..........................................................';
 
 const oauth2Client = new google.auth.OAuth2(
     CLIENT_ID,
@@ -58,7 +58,7 @@ exports.deleteFile=async()=> {
   // deleteFile();
 exports.generatePublicUrl=async()=> {
     try {
-      const fileId = '12vBMduX73Ihwomf6R9yqESRHi7078pKH';
+      const fileId = '12vBMduX..........................';
       await drive.permissions.create({
         fileId: fileId,
         requestBody: {
