@@ -16,7 +16,7 @@ const api_version = "api/v1";
   })();
   function db_config() {
     Mongoose.connect(
-      "mongodb+srv://ajay:900@cluster0.umyjcyd.mongodb.net/registrationForm_DB?retryWrites=true&w=majority",
+      "mongodb+srv://a...........................",
       (err) => {
         if (!err) {
           console.log("DB Connected Successfully");
